@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
- import './index.css'
+import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,6 +13,7 @@ import About from './pages/About/About.jsx';
 import Category from './pages/Category/Category.jsx';
 import Privacy from './pages/Privacy/Privacy.jsx';
 import Contact from './pages/Contact/Contact.jsx';
+import Author from './pages/Author/Author';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/author',
+        element: <Author />
       },
 
     ]
