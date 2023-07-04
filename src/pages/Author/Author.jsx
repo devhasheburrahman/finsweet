@@ -22,12 +22,12 @@ const Author = () => {
                     </div>
                 </div>
 
-                <div className='flex px-[208px] pt-[118px] items-center'>
+                <div className='flex px-[208px] pt-[118px] items-center rounded'>
                     <div className='bg-[#FFD050] w-[813px]'>
-                        c
+                      <p className='text-[#FFD050]'>c</p>
                     </div>
                     <div className='bg-[#592EA9] w-[271px]'>
-                        x
+                     <p className='text-[#592EA9]'>a</p>
                     </div>
                 </div>
             </div>
