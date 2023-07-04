@@ -62,17 +62,19 @@ const Category = () => {
                 </div>
 
                 {/* category button */}
-                
+
                 <div className='w-1/4'>
 
                     <div>
                         <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='text-4xl font-bold text-[Sen] text-[#232536] ' >Categories</h1>
 
-                        <button className='font-bold font-[Sen] text-[28px] py-7 bg-[#FFD050] w-[296px] mt-6'> π Startup </button>
+                        <button className='font-bold font-[Sen] text-[28px] py-7 flex items-center gap-3   justify-center bg-[#FFD050] w-[296px] mt-6'>
 
-                        <button className='py-7 border border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'>  Business </button>
-                        <button className='py-7 border border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'>  Economy </button>
-                        <button className='py-7 border border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'> Technology </button>
+                             <img className='bg-white p-2 rounded' src="icon2.svg" alt="" /> Startup </button>
+
+                        <button className='py-7 border border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none flex items-center gap-3   justify-center w-[296px] mt-6'> <img src="icon1.svg" alt="" />  Business </button>
+                        <button className='py-7 border flex items-center gap-3   justify-center border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'> <img src="icon3.svg" alt="" />  Economy </button>
+                        <button className='py-7 border border-[#C1C1C3] flex items-center gap-3   justify-center font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'> <img src="icon4.svg" alt="" /> Technology </button>
                     </div>
 
 
