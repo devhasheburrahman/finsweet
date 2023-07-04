@@ -29,9 +29,9 @@ const Contact = () => {
             </div>
             <div className='text-center mb-32'>
 
-                <input className='border border-[#232536] w-[768px] outline-none p-6 mt-8' type="text" name="" id="" placeholder='Full Name' />
+                <input className='border border-[#232536] w-[768px] outline-none font-[Inter] p-6 mt-8' type="text" name="" id="" placeholder='Full Name' />
 
-                <input className='border border-[#232536] w-[768px] outline-none p-6 mt-4' type="email" name="" id="" placeholder='Your Email' />
+                <input className='border border-[#232536] w-[768px] outline-none font-[Inter] p-6 mt-4' type="email" name="" id="" placeholder='Your Email' />
 
                 {/* <label  className='border border-[#232536] w-[768px] outline-none p-6 mt-4'   for="cars">Query Related  :</label>
                 <select name="cars" id="cars">
@@ -40,9 +40,9 @@ const Contact = () => {
 
                 </select> */}
 
-                <input className='border border-[#232536] w-[768px] outline-none p-6 mt-4' type="email" name="" id="" placeholder='Query Related' />
+                <input className='border border-[#232536] w-[768px] font-[Inter] outline-none p-6 mt-4' type="email" name="" id="" placeholder='Query Related' />
 
-                <input className='border border-[#232536] w-[768px] outline-none h-36 p-6 mt-4' type="email" name="" id="" placeholder='Message' /> <br />
+                <input className='border border-[#232536] w-[768px] outline-none font-[Inter] h-36 p-6 mt-4' type="email" name="" id="" placeholder='Message' /> <br />
 
                 <input className='bg-[#FFD050] w-[768px] outline-none text-2xl font-bold font-[Sen] text-[#232536] p-6 mt-4 ' type="button" value="Send Message" />
             </div>
