@@ -7,8 +7,8 @@ const Home = () => {
         <div className='mx-20'>
             <section className='h-[464px] bg-[#FBF6EA]'>
 
-                <div className='flex p-[112px]'>
-                    <div className=' border-r-2  ' >
+                <div className='flex gap-[84px] pt-[92px]'>
+                    <div className='px-[112px] border-r-2  ' >
 
                         <p style={{ letterSpacing: '3px', lineHeight: '20px' }} className='font-[Inter] text-base  text-[#232536]'>TESTIMONIALS</p>
                         <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='text-4xl font-[Sen] font-bold mt-3 '>What people say about our blog</h1>
@@ -20,7 +20,7 @@ const Home = () => {
 
                         <div className='flex items-center gap-36 '>
 
-                            <div className='flex items-center gap-4 mb-[75] '>
+                            <div className='flex items-center gap-4  '>
 
                                 <img className='h-20' src="Image.png" alt="" />
 
