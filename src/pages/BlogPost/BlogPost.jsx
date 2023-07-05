@@ -6,14 +6,14 @@ const BlogPost = () => {
 
         <div>
             <div className='px-[336px] pt-[208px]'>
-                <div className='flex gap-4'>
+                <div className='flex gap-4 '>
                     <img src="Image.png" alt="" />
                     <div>
-                        <h1 style={{ letterSpacing: '-1px', lineHeight: '48px' }} className=' mt-6 text-center text-[28px] text-[#592EA9] font-bold font-[Sen] '>Andrew Jonson</h1>
+                        <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className=' mt-6 text-[28px] text-[#232536] font-bold font-[Sen] '>Andrew Jonson</h1>
                         <p className='text-base  text-[Inter] text-[#6D6E76]'> posted on 27th january 2022</p>
                     </div>
                 </div>
-                <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className=' text-center text-5xl font-bold font-[Sen] '>Step-by-step guide to choosing great font pairs</h1>
+                <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className='text-5xl font-bold font-[Sen] '>Step-by-step guide to choosing great font pairs</h1>
                 <p className='flex gap-2  mt-[34px] '> <img src="icon2.svg" alt="" /> startup </p>
             </div>
 
