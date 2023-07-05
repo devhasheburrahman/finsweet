@@ -6,12 +6,12 @@ const BlogPost = () => {
 
         <div>
             <div className='px-[336px] pt-[208px]'>
-                <div className='flex items-center gap-4 '>
+                <div className='flex items-center gap-4 mb-6 '>
 
                     <img className='h-20' src="Image.png" alt="" />
-                    
+
                     <div>
-                        <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className=' mt-6 text-[28px] text-[#232536] font-bold font-[Sen] '>Andrew Jonson</h1>
+                        <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className=' text-[28px] text-[#232536] font-bold font-[Sen] '>Andrew Jonson</h1>
                         <p className='text-base  text-[Inter] text-[#6D6E76]'> posted on 27th january 2022</p>
                     </div>
                 </div>
