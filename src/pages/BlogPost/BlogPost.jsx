@@ -14,7 +14,7 @@ const BlogPost = () => {
                     </div>
                 </div>
                 <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className='text-5xl font-bold font-[Sen] '>Step-by-step guide to choosing great font pairs</h1>
-                <p className='flex gap-2  mt-[34px] '> <img src="icon2.svg" alt="" /> startup </p>
+                <p className='flex gap-2 items-center font-bold font-[Seb] text-2xl mt-[34px] '> <img src="icon2.svg" alt="" /> Startup </p>
             </div>
 
             <section className='px-20 mt-16'>
@@ -49,20 +49,20 @@ const BlogPost = () => {
                 <div className='flex gap-8'>
                     <div>
                         <img src="client1.png" alt="" />
-                        <p className='text-sm text-[Inter] text-[#6D6E76]' >By John Doe   l   Aug 23, 2021 </p>
-                        <h1 style={{ letterSpacing: '-1px', lineHeight: '48px' }} className=' text-[28px] font-bold font-[Sen] text-[#161722] '>A UX Case Study Creating a Studious Environment for Students: </h1>
+                        <p className='text-sm text-[Inter] text-[#6D6E76] mt-8' >By John Doe   l   Aug 23, 2021 </p>
+                        <h1 style={{ letterSpacing: '-1px', lineHeight: '48px' }} className='mt-4 text-[28px] font-bold font-[Sen] text-[#161722] '>A UX Case Study Creating a Studious Environment for Students: </h1>
                         <p className='text-sm text-[Inter] text-[#6D6E76]'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
                     </div>
                     <div>
                         <img src="client2.png" alt="" />
-                        <p className='text-sm text-[Inter] text-[#6D6E76]' >By John Doe   l   Aug 23, 2021 </p>
-                        <h1 style={{ letterSpacing: '-1px', lineHeight: '48px' }} className=' text-[28px] font-bold font-[Sen] text-[#161722] '>A UX Case Study Creating a Studious Environment for Students: </h1>
+                        <p className='text-sm text-[Inter] text-[#6D6E76] mt-8' >By John Doe   l   Aug 23, 2021 </p>
+                        <h1 style={{ letterSpacing: '-1px', lineHeight: '48px' }} className='mt-4 text-[28px] font-bold font-[Sen] text-[#161722] '>A UX Case Study Creating a Studious Environment for Students: </h1>
                         <p className='text-sm text-[Inter] text-[#6D6E76]'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
                     </div>
                     <div>
                         <img src="client3.png" alt="" />
-                        <p className='text-sm text-[Inter] text-[#6D6E76]' >By John Doe   l   Aug 23, 2021 </p>
-                        <h1 style={{ letterSpacing: '-1px', lineHeight: '48px' }} className=' text-[28px] font-bold font-[Sen] text-[#161722] '>A UX Case Study Creating a Studious Environment for Students: </h1>
+                        <p className='text-sm text-[Inter] text-[#6D6E76] mt-8' >By John Doe   l   Aug 23, 2021 </p>
+                        <h1 style={{ letterSpacing: '-1px', lineHeight: '48px' }} className='mt-4 text-[28px] font-bold font-[Sen] text-[#161722] '>A UX Case Study Creating a Studious Environment for Students: </h1>
                         <p className='text-sm text-[Inter] text-[#6D6E76]'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
                     </div>
                 </div>
