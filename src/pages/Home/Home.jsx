@@ -7,17 +7,19 @@ const Home = () => {
     return (
         <div>
             {/* header  */}
-            <div className='px-20 pt-32 h-[720px] bg-black '>
-                <h1 style={{ letterSpacing: '3px', lineHeight: '48px' }} className='text-white text-base font-[Inter] '>POSTED ON <span className='font-bold'>STARTUP</span></h1>
+            <div className='px-20 pt-32 h-[720px] hero-section '>
+                <div className='relative z-10'>
+                    <h1 style={{ letterSpacing: '3px', lineHeight: '48px' }} className='text-white text-base font-[Inter] '>POSTED ON <span className='font-bold'>STARTUP</span></h1>
 
 
-                <h1 style={{ letterSpacing: '-2px', lineHeight: ' 64px' }} className=' text-[56px] font-bold font-[Sen] text-white mt-6 '>Step-by-step guide to choosing <br /> great font pairs </h1>
+                    <h1 style={{ letterSpacing: '-2px', lineHeight: ' 64px' }} className=' text-[56px] font-bold font-[Sen] text-white mt-6 '>Step-by-step guide to choosing <br /> great font pairs </h1>
 
-                <p className='text-sm text-[Inter] text-white mt-6 mb-4' >By <span className='text-[#FFD050]'>James West </span>  l   May 23, 2021 </p>
+                    <p className='text-sm text-[Inter] text-white mt-6 mb-4' >By <span className='text-[#FFD050]'>James West </span>  l   May 23, 2021 </p>
 
-                <p className='text-sm text-[Inter] mt-4  text-white'>Duis aute irure dolor in reprehenderit in voluptate velit  esse cillum dolore eu fugiat nulla pariatur <br /> Excepteur sint occaecat cupidatat non proident.</p>
+                    <p className='text-sm text-[Inter] mt-4  text-white'>Duis aute irure dolor in reprehenderit in voluptate velit  esse cillum dolore eu fugiat nulla pariatur <br /> Excepteur sint occaecat cupidatat non proident.</p>
 
-                <button className='flex items-center px-12 bg-[#FFD050] py-4 text-lg font-bold font-[Sen] mt-12'>  Read More <FaAngleRight /> </button>
+                    <button className='flex items-center px-12 bg-[#FFD050] py-4 text-lg font-bold font-[Sen] mt-12'>  Read More <FaAngleRight /> </button>
+                </div>
 
             </div>
 
@@ -270,7 +272,7 @@ const Home = () => {
                     </div>
 
                 </section>
-                
+
                 <Team />
             </div>
         </div>

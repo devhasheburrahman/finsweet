@@ -8,7 +8,7 @@ const BlogPost = () => {
             <div className='px-[336px] pt-[208px]'>
                 <div className='flex items-center gap-4 mb-6 '>
 
-                    <img className='h-20 mx-auto' src="Image.png" alt="" />
+                    <img className='h-20' src="Image.png" alt="" />
 
                     <div>
                         <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className=' text-[28px] text-[#232536] font-bold font-[Sen] '>Andrew Jonson</h1>
@@ -20,7 +20,10 @@ const BlogPost = () => {
             </div>
 
             <section className='px-20 mt-16'>
-                <img src="postBanner.png" alt="" />
+
+                <div className='flex justify-center'>
+                    <img src="postBanner.png" alt="" />
+                </div>
 
                 <div className='px-52 mt-16'>
                     <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' text-4xl font-bold font-[Sen] text-[#232536] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</h1>

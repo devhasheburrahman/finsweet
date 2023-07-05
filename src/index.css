@@ -7,3 +7,19 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+.hero-section {
+    background-image: url(/header.png);
+    position: relative;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.382);
+    z-index: 1;
+}

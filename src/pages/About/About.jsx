@@ -9,13 +9,13 @@ const About = () => {
             <section className='mx-20'>
 
                 <div className='flex justify-center items-center gap-[61px]  pt-[92px]'>
-                    <div className='p-16 bg-white' >
+                    <div className='p-16 bg-white relative z-10 ml-20 -bottom-[63px] shadow h-[256px] w-[624px]' >
 
                         <p style={{ letterSpacing: '3px', lineHeight: '20px' }} className='font-[Inter] text-base  text-[#232536]'>ABOUT US</p>
 
                         <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='text-4xl font-[Sen] font-bold mt-3 '>We are a community of content writers who share their learnings</h1>
                     </div>
-                    <div>
+                    <div className='w-2/4'>
                         <p className='text-[Inter] text-base mt-4 text-[#232536] font-normal'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
                     </div>
@@ -27,7 +27,7 @@ const About = () => {
             {/* img section  */}
 
             <section className='mx-20'>
-                <div className='flex flex-col justify-end  h-[444px] bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(/friend.png)` }} >
+                <div className='flex flex-col justify-end rela  h-[444px] bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(/friend.png)` }} >
                     <div className='flex '>
                         <div className='flex mx-20 bg-yellow-300 gap-[86px] h-[156px]  pt-8 px-12 '>
                             <div>
