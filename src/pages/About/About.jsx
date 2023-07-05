@@ -5,8 +5,60 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaAngleRight } from 're
 const About = () => {
     return (
         <div>
-            <section>
 
+            <section className='mx-20'>
+
+                <div className='flex justify-center items-center gap-[61px]  pt-[92px]'>
+                    <div className='p-16 bg-white' >
+
+                        <p style={{ letterSpacing: '3px', lineHeight: '20px' }} className='font-[Inter] text-base  text-[#232536]'>ABOUT US</p>
+
+                        <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='text-4xl font-[Sen] font-bold mt-3 '>We are a community of content writers who share their learnings</h1>
+                    </div>
+                    <div>
+                        <p className='text-[Inter] text-base mt-4 text-[#232536] font-normal'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+            {/* img section  */}
+
+            <section className='mx-20'>
+                <div className='flex flex-col justify-end  h-[444px] bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(/friend.png)` }} >
+                    <div className='flex '>
+                        <div className='flex mx-20 bg-yellow-300 gap-[86px] h-[156px]  pt-8 px-12 '>
+                            <div>
+                                <h1 className='text-[56px] font-bold font-[Sen] leading-[64px] -tracking-2'>12+</h1>
+                                <p className='text-base font-[Inter] leading-7 text-[#232536]'>Blogs Published </p>
+                            </div>
+                            <div>
+                                <h1 className='text-[56px] font-bold font-[Sen] leading-[64px] -tracking-2'>18k+</h1>
+                                <p className='text-base font-[Inter] leading-7 text-[#232536]'> View on Finsweet</p>
+                            </div>
+                            <div>
+                                <h1 className='text-[56px] font-bold font-[Sen] leading-[64px] -tracking-2'>30k+</h1>
+                                <p className='text-base font-[Inter] leading-7 text-[#232536]'> Total Active User</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='ml-20'>
+                        <div className='flex   items-center'>
+                            <div className='bg-[#592EA9] h-5 w-[310px]'>
+
+                            </div>
+                            <div className='bg-[#FFD050] h-5 w-[550px]'>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
             </section>
 
             <section className='h-[464px] mx-20 bg-[#F4F0F8] mb-32'>

@@ -90,9 +90,9 @@ const Blog = () => {
             </div>
 
             <section className='px-20 mt-16'>
-                <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' mt-16 text-4xl font-bold font-[Sen] mb-12 '>All Categories</h1>
+                <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' mt-16 text-center text-4xl font-bold font-[Sen] mb-12 '>All Categories</h1>
 
-                <div className='flex gap-8' >
+                <div className='flex justify-center gap-8' >
 
                     <div className=' w-[296px] h-[228px] border border-[#6D6E76] p-8'>
                         <img src="icon1.svg" alt="" />

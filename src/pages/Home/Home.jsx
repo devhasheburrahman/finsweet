@@ -23,7 +23,6 @@ const Home = () => {
 
             <div className='mx-20'>
 
-
                 {/* featurePost  */}
                 <section>
                     <div className='flex  gap-8'>
@@ -67,9 +66,6 @@ const Home = () => {
 
                 </section>
 
-
-
-
                 <div className='flex  pt-[118px] justify-end rounded'>
                     <div className='bg-[#FFD050] w-[813px]'>
 
@@ -112,7 +108,7 @@ const Home = () => {
                 <section className='mt-16 mb-3'>
                     <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' mt-16 text-4xl font-bold font-[Sen] mb-12  flex justify-center '> Choose A Categories</h1>
 
-                    <div className='flex  gap-8' >
+                    <div className='flex justify-center gap-8' >
 
                         <div className=' w-[296px] h-[228px] border border-[#6D6E76] p-8'>
                             <img src="icon1.svg" alt="" />
@@ -143,12 +139,12 @@ const Home = () => {
                 {/* story */}
                 <section>
 
-                    <div className='flex mt-32 '>
+                    <div className=' relative mt-32 '>
                         <div>
                             <img src="friend.png" alt="" />
                         </div>
 
-                        <div className='p-20 h-[584px] w=[706px] bg-white'>
+                        <div className='p-20 h-[584px] w=[706px] absolute bottom-0 left-[50%] bg-white'>
                             <p style={{ letterSpacing: '3px', lineHeight: '20px' }} className='text-sm text-[Inter]   mt-4 mb-4' > WHY WE STARTED</p>
 
 
@@ -160,6 +156,7 @@ const Home = () => {
                     </div>
 
                 </section>
+
                 {/* List of Authors */}
                 <section className=' mt-32'>
                     <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' text-center text-4xl font-bold font-[Sen] '>List of Authors</h1>
@@ -225,8 +222,6 @@ const Home = () => {
                     </div>
                 </section>
 
-
-
                 <section className='mt-32 mb-[108px]'>
                     <div className='flex justify-between'>
 
@@ -241,6 +236,7 @@ const Home = () => {
                         <img src="Logo 5.svg" alt="" />
                     </div>
                 </section>
+
                 <section className='h-[464px] bg-[#FBF6EA]'>
 
                     <div className='flex gap-[84px] pt-[92px]'>
@@ -274,14 +270,7 @@ const Home = () => {
                     </div>
 
                 </section>
-
-
-
-
-
-
-
-
+                
                 <Team />
             </div>
         </div>

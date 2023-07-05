@@ -8,7 +8,7 @@ const BlogPost = () => {
             <div className='px-[336px] pt-[208px]'>
                 <div className='flex items-center gap-4 mb-6 '>
 
-                    <img className='h-20' src="Image.png" alt="" />
+                    <img className='h-20 mx-auto' src="Image.png" alt="" />
 
                     <div>
                         <h1 style={{ letterSpacing: '-2px', lineHeight: '64px' }} className=' text-[28px] text-[#232536] font-bold font-[Sen] '>Andrew Jonson</h1>
