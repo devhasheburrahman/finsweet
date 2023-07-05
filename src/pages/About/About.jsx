@@ -1,11 +1,36 @@
 import React from 'react';
 import Team from '../Team/Team';
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaAngleRight } from 'react-icons/fa';
 
 const About = () => {
     return (
         <div>
             <section>
+
+            </section>
+
+            <section className='h-[464px] mx-20 bg-[#F4F0F8] mb-32'>
+
+                <div className='flex gap-[61px]  pt-[92px]'>
+                    <div className='pl-20 w-2/4' >
+
+                        <p style={{ letterSpacing: '3px', lineHeight: '20px' }} className='font-[Inter] text-base  text-[#232536]'>OUR MISION</p>
+
+                        <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='text-4xl font-[Sen] font-bold mt-3 '>Creating valuable content for creatives all around the world </h1>
+
+                        <p className='text-[Inter] text-base mt-4 text-[#232536] font-normal'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    </div>
+                    <div className='w-2/4'>
+                        <p style={{ letterSpacing: '3px', lineHeight: '20px' }} className='font-[Inter] text-base  text-[#232536]'>OUR VISION</p>
+
+
+                        <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='text-4xl font-[Sen] font-bold mt-3 '>A platform that empowers individuals to improve</h1>
+
+                        <p className='text-[Inter] text-base mt-4 text-[#232536] font-normal'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    </div>
+                </div>
 
             </section>
 
@@ -16,26 +41,28 @@ const About = () => {
             <section>
                 <div className='px-20 flex gap-[137px] justify-center items-center  mt-32   ' >
 
-                    <div>
-                        <img className='w-[800px]' src="about1.png" alt="" />
+
+                    <div className='w-2/4'>
+                        <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' text-4xl font-bold font-[Sen] mt-8 '>Our team of creatives</h1>
+                        <p className='text-2xl font-[Sen] mt-8 font-bold '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <p className='font-[Inter] text-base mt-8 text-[#232536]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
                     </div>
                     <div>
-                        <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' text-4xl font-bold font-[Sen] '>Our team of creatives</h1>
-                        <p className='text-2xl font-[Sen] font-bold '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        <p className='font-[Inter] text-base text-[#232536]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                        <img className='w-[800px]' src="about1.png" alt="" />
                     </div>
 
                 </div>
                 <div className='px-20 flex gap-[137px] justify-center items-center mt-8 ' >
                     <div>
-                        <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='  text-4xl font-bold font-[Sen] '>Why we started this Blog</h1>
-                        <p className='text-2xl font-[Sen] font-bold '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        <p className='font-[Inter] text-base text-[#232536]' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
-                    </div>
-                    <div>
                         <img src="about2.png" alt="" />
 
                     </div>
+                    <div className='w-2/4'>
+                        <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='  text-4xl font-bold font-[Sen] mt-8 '>Why we started this Blog</h1>
+                        <p className='text-2xl font-[Sen] font-bold mt-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <p className='font-[Inter] text-base mt-8 text-[#232536]' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                    </div>
+
                 </div>
             </section>
 
