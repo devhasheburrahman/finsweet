@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className='mx-20'>
             {/* choose our category  */}
-            <section className='px-20 mt-16'>
+            <section className='mt-16'>
                 <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' mt-16 text-4xl font-bold font-[Sen] mb-12  flex justify-center '> Choose A Categories</h1>
 
                 <div className='flex gap-8' >
@@ -43,7 +43,7 @@ const Home = () => {
 
             </section>
             {/* List of Authors */}
-            <section className='mx-20 mt-32'>
+            <section className=' mt-32'>
                 <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className=' text-center text-4xl font-bold font-[Sen] '>List of Authors</h1>
 
                 <div className=' grid grid-cols-4 gap-8 mt-12'>
