@@ -70,11 +70,11 @@ const Category = () => {
 
                         <button className='font-bold font-[Sen] text-[28px] py-7 flex items-center gap-3   justify-center bg-[#FFD050] w-[296px] mt-6'>
 
-                             <img className='bg-white p-2 rounded' src="icon2.svg" alt="" /> Startup </button>
+                             <img className='bg-[#FBF6EA] p-3 rounded-xl' src="icon2.svg" alt="" /> Startup </button>
 
                         <button className='py-7 border border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none flex items-center gap-3   justify-center w-[296px] mt-6'> <img src="icon1.svg" alt="" />  Business </button>
-                        <button className='py-7 border flex items-center gap-3   justify-center border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'> <img src="icon3.svg" alt="" />  Economy </button>
-                        <button className='py-7 border border-[#C1C1C3] flex items-center gap-3   justify-center font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'> <img src="icon4.svg" alt="" /> Technology </button>
+                        <button className='py-7 border flex items-center gap-3   justify-center border-[#C1C1C3] font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'> <img className='bg-[#FBF6EA] p-3 rounded-xl' src="icon3.svg" alt="" />  Economy </button>
+                        <button className='py-7 border border-[#C1C1C3] flex items-center gap-3   justify-center font-bold font-[Sen] text-[28px] outline-none w-[296px] mt-6'> <img className='bg-[#FBF6EA] p-3 rounded-xl' src="icon4.svg" alt="" /> Technology </button>
                     </div>
 
 
