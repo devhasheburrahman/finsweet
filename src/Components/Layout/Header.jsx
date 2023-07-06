@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+
+
+
+
     return (
         <>
             <div className='flex items-center justify-between bg-[#232536] h-20 px-20'>

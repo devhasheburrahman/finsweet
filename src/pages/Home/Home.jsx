@@ -31,7 +31,7 @@ const Home = () => {
                         <div>
                             <h1 style={{ letterSpacing: '-2px', lineHeight: '48px' }} className='text-4xl font-[Sen] mt-32 mb-8 font-bold'>Feature Post</h1>
 
-                            <div className='bg-[#F4F0F8] opacity-12 p-8'>
+                            <div className='bg-[#F4F0F8] bg-opacity-10 p-8'>
                                 <img src="home.png" alt="" />
                                 <p className='text-sm text-[Inter] text-[#592EA9] mt-4 mb-4' >By <span className='text-[#592EA9]'>John Doe </span>  l   Aug 23, 2021 </p>
 
