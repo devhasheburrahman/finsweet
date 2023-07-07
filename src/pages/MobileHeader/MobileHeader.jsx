@@ -9,8 +9,8 @@ const MobileHeader = () => {
     return (
 
         <div className='relative'>
-            <div className='bg-red-500 fixed w-full top-0 left-0 z-50 flex justify-between items-center px-4'>
-                <div className='font-bold  text-[red]'>
+            <div className='bg-[#232536] py-4 fixed w-full top-0 left-0 z-50 flex justify-between items-center px-4'>
+                <div className='font-bold '>
                     <img src="/Logo.png" alt="ccc" />
                 </div>
                 <Hamburger toggled={isOpen} toggle={setOpen} />
