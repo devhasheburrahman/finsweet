@@ -114,22 +114,22 @@ const Home = () => {
 
                     <div className='md:grid md:grid-cols-4    justify-center gap-8' >
 
-                        <div className=' w-[296px] h-[228px] mb-8 border border-[#6D6E76] p-8'>
+                        <div className='   h-[228px] mb-8 border border-[#6D6E76] p-8'>
                             <img src="icon1.svg" alt="" />
                             <h1 className=' font-bold font-[Sen] text-[28px] mt-2'>Business </h1>
                             <p className='text-base text-[#6D6E76] font-[Inter] mt-2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                         </div>
-                        <div className=' w-[296px] h-[228px] mb-8  border border-[#6D6E76] p-8 bg-[#FFD050]'>
+                        <div className=' h-[228px] mb-8  border border-[#6D6E76] p-8 bg-[#FFD050]'>
                             <img className='bg-[#FBF6EA] p-3 rounded-xl' src="icon2.svg" alt="" />
                             <h1 className=' font-bold font-[Sen] text-[28px] mt-2'>Startup </h1>
                             <p className='text-base text-[#6D6E76] font-[Inter] mt-2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                         </div>
-                        <div className=' w-[296px] h-[228px] mb-8  border border-[#6D6E76] p-8'>
+                        <div className=' h-[228px] mb-8  border border-[#6D6E76] p-8'>
                             <img className='bg-[#FBF6EA] p-3 rounded-xl' src="icon3.svg" alt="" />
                             <h1 className=' font-bold font-[Sen] text-[28px] mt-2'>Startup </h1>
                             <p className='text-base text-[#6D6E76] font-[Inter] mt-2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                         </div>
-                        <div className=' w-[296px] h-[228px] mb-8  border border-[#6D6E76] p-8'>
+                        <div className=' h-[228px] mb-8  border border-[#6D6E76] p-8'>
                             <img className='bg-[#FBF6EA] p-3 rounded-xl' src="icon4.svg" alt="" />
                             <h1 className=' font-bold font-[Sen] text-[28px] mt-2'>Technology </h1>
                             <p className='text-base text-[#6D6E76] font-[Inter] mt-2'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
