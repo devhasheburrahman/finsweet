@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div className=' bg-[#232536]  py-[56px] pt-[60px] px-4 md:px-20'>
-            {/* navigation  footer*/}
+            {/* navigation  footer ❤️‍🔥*/}
             <div className='md:flex flex-row items-center justify-between bg-[#232536]'>
                 <div className='text-white font-bold text-[]'>
                     <img src="/Logo.png" alt="" />
@@ -22,6 +22,7 @@ const Footer = () => {
                     <Link to='/category'><div>Category</div></Link>
                 </div>
             </div>
+            
             <div className='bg-white  bg-opacity-5 md:mt-[54px] md:px-16 md:py-20'>
                 <div className='md:grid grid-cols-2  p-2   w-full gap-6'>
                     <p className='md:text-[36px] text-base text-white md:leading-[46px] font-bold font-[Sen]'>Subscribe to our news letter to get latest updates and news</p>
@@ -33,6 +34,7 @@ const Footer = () => {
                 </div>
 
             </div>
+
             <div className='md:flex flex-col md:flex-row gap-3 justify-between  mt-12'>
                 <div>
                     <p className='text-white opacity-60 text-xs'>Finstreet 118 2561 Fintown</p>

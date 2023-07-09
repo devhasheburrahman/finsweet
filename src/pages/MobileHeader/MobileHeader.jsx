@@ -13,7 +13,9 @@ const MobileHeader = () => {
                 <div className='font-bold '>
                     <img src="/Logo.png" alt="ccc" />
                 </div>
-                <Hamburger toggled={isOpen} toggle={setOpen} />
+                <div className='text-white'>
+                    <Hamburger toggled={isOpen} toggle={setOpen} />
+                </div>
 
             </div>
             <div className={`transition-all duration-700 text-white fixed w-full ${isOpen ? 'top-0' : '-top-[500px]'} flex flex-col bg-[#232536] pt-4  px-8 gap-6`}>
