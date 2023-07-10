@@ -27,7 +27,7 @@ const MobileHeader = () => {
                 <Link to='/Author'> <div className='border-b border-[#5a5e8a] pb-2'>Author</div></Link>
                 <Link to='/privacy'> <div className='border-b border-[#5a5e8a] pb-2'>Privacy</div></Link>
                 <Link to='/category'> <div className='border-b border-[#5a5e8a] pb-2'>Category</div></Link>
-                <button className='bg-white w-full pb-10 py-4 ml-2 rounded-md text-[#5a5e8a]  '>Subscribe</button>
+                <button className='bg-white w-full mb-5 pb-10 py-4 ml-2 rounded-md text-[#5a5e8a]  '>Subscribe</button>
 
 
 
